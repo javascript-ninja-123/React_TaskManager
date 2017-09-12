@@ -1,0 +1,93 @@
+
+
+/*frontend form*/
+.Frontend form{
+  padding:15px 0;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Frontend .ui.form{
+  width:100% !important;
+}
+.Frontend .flexColumn.TextArea, .Frontend .flexRow.TextArea{
+  width:100% !important;
+}
+.Frontend textarea{
+  margin-top:5px !important;
+}
+
+form button{
+  margin-top:25px !important;
+  margin-left:3px !important;
+}
+.flexRow{
+  width:100% !important;
+  margin-top:10px;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.flexColumn{
+  margin:0 5px;
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width:100% !important;
+}
+
+.priorityLabel{
+  margin-top:-20px !important;
+}
+
+
+/*frontend list*/
+.Frontend .ui.divided.relaxed.list{
+  margin-top:20px;
+}
+.Frontend .header{
+  text-align:left !important;
+  padding:5px 0;
+  margin-top:20px !important;;
+}
+.Frontend .description{
+  cursor:initial !important;
+  padding:3px 0;
+  text-align:left !important;
+}
+
+/*frontend accordian*/
+.Frontend .ui.styled.accordion{
+  margin:6px 0;
+}
+.Frontend .title, .Frontend .ui.styled.accordion{
+  width:100% !important;
+}
+
+/*Frontend tab*/
+.Frontend .ui.attached.tabular.menu{
+  margin-top:20px !important;
+}
+
+/*Frontend class Content / <List>*/
+.Frontend .listContent{
+  display:flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+}
+
+/*Frontend class content <List> icons*/
+.Frontend .listContent i{
+  cursor:pointer;
+}
+
+
+/*Frontend in Progress*/
+.Frontend .inProgress{
+  font-size:0.9rem;
+  margin-left:10px;
+  color:purple;
+}

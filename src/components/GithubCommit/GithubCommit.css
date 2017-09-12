@@ -1,0 +1,9 @@
+.Github .item{
+  padding:15px 0 !important;
+}
+.Github .item h4{
+  text-align:left !important;
+}
+.Github .item .ui.label{
+  margin-top:5px !important;
+}

@@ -1,0 +1,27 @@
+form{
+  width:70% !important;
+  margin:0 auto !important;
+}
+
+p{
+  text-align:right;
+  cursor:pointer;
+  transition:0.2s linear;
+  margin-top:5px;
+}
+p:hover{
+  color:pink;
+}
+h4{
+  text-align:center;
+  color:red;
+}
+.input{
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  padding:2% 1%;
+}
+label{
+  padding-bottom:5px;
+}
